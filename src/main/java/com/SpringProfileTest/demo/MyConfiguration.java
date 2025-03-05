@@ -11,6 +11,7 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("classpath:mydatasource.properties")
 public class MyConfiguration {
 
+    //this is my data source bean
     @Bean
     public myDataSource myDataSource(@Value("${mydatasource.username}") String username,
                                      @Value("${mydatasource.password}") String password){
