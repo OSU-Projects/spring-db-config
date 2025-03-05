@@ -7,6 +7,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
+
+//we can define propertysource annotation at least level because it does not override application.properties file
 @Configuration
 @PropertySource("classpath:mydatasource.properties")
 public class MyConfiguration {
