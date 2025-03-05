@@ -22,7 +22,7 @@ public class MyConfiguration {
         myDataSourceObj.setUsername(username);
         myDataSourceObj.setPassword(password);
 
-        System.out.println("data source username :: "+myDataSourceObj.getUsername()+"  passwd :: "+myDataSourceObj.getPassword());
+        System.out.println("data source username  :: "+myDataSourceObj.getUsername()+"  passwd :: "+myDataSourceObj.getPassword());
 
         return myDataSourceObj;
     }
